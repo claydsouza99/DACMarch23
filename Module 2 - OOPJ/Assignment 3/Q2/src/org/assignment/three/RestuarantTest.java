@@ -70,7 +70,8 @@ public class RestuarantTest {
 		}
 		if(!found)
 			System.out.println("Dish not found");
-	
+		
+		System.out.println(Arrays.toString(arr));
 		}
 
 	public void ModifyPrice() {
@@ -92,7 +93,8 @@ public class RestuarantTest {
 		}
 		if(!found)
 			System.out.println("Dish not found");
-			
+		
+		System.out.println(Arrays.toString(arr));
 		
 	} 
 	

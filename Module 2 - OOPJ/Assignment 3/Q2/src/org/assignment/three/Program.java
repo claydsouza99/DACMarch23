@@ -25,13 +25,10 @@ public class Program {
 		
 		Restuarant[] arr = RestuarantTest.getArray();
 		
-		RestuarantTest test = new RestuarantTest();
+		RestuarantTest test = new RestuarantTest();		
 		
-		System.out.println(arr[0].getDish());
-		
-		
-		int choice;
-		
+		int choice=0;
+				
 		while((choice = Program.menuList() ) != 5) {
 			
 			switch (choice) {
@@ -45,11 +42,11 @@ public class Program {
 				break;
 			
 			case 4: test.ModifyPrice();
-				break;
-			}
-			
-		}
+				break;	
+				
+			}	
+		} 
+		System.out.println("Thank you, visit again!");
 	}
-		
 	}
 
